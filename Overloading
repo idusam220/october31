@@ -1,0 +1,10 @@
+class OverloadingTest {
+public void display (String ref){
+System.out.printIn("String..."+ref);
+}
+public void display (Object ref){
+• System.out.printIn("Object..."+ref);
+}
+public static void main(String[] args) {
+OverloadingTest test=new OverloadingTest();
+test.display(null);
