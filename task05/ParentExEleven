@@ -1,0 +1,8 @@
+public class ParentExEleven
+{
+	public void h1()
+     {
+         System.out.println("Start of h1 non-static method of ChildExSeven ");
+         System.out.println("End of h1 non-static method of ChildExSeven ");
+
+}

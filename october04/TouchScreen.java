@@ -1,0 +1,5 @@
+interface TouchScreen
+{
+	void touch();
+	
+}

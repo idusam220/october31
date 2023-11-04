@@ -1,0 +1,8 @@
+publoc abstract class Animal
+{
+	abstract void eat();
+	public void breathe()
+	{
+	  
+	}
+}

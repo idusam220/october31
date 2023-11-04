@@ -1,0 +1,16 @@
+public class ParentExOne
+static String companyName = "JavaWorld";
+STATIC INT establishYear
+= 1995;
+System.out.printIn("Start of First Static Block of ParentExOne");
+m2();
+System.out.printIn("End of Second Static Block of ParentExOne");
+static{
+System.out.printIn("Start of Second Static Block of ParentExOne");
+System.out.printin "Companv Name is = "+ companName:
+System.out.printIn("End of Second Static Block of ParentExOne");
+public static void m2(K
+System.out.printin("Start of static m2() of ParentExOne");
+System.out.printIn(companhyName);
+System.out.printin(establishYear);
+System.out. printin("End of static m2() of ParentExOne");

@@ -1,0 +1,14 @@
+public class TestOne
+{
+	byte variableOne;
+	short variableTwo;
+	int variable Three;
+	long variableFour;
+	String name;
+	double variableFive;
+
+	public void m1()
+	{
+	  System.out.println("Start of non-static m1 method");
+	}
+}
