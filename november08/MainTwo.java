@@ -1,0 +1,85 @@
+package net.main.maintwo;
+import java.util.Scanner;
+import org.student.exampleone.Student;
+import com.department.exampleone.Department;
+import gov.address.exampleone.Address;
+public class MainTwo
+{
+	public static void main(String[]args)
+	{
+	    System.out.println("Start of Main Method");
+	    System.out.println("     ");
+	    Student  st   = new Student();
+		Department dt = new Department();
+		Address    ad = new Address();
+	    Scanner sc            = null;
+		String studentId      = null;
+		String studentName    = null;
+		double studentAge     = 0.0;
+		String departmentId   = null;
+		String departmentName = null;
+		int numberOfHours     = 0;
+		String houseNumber    = null;
+	    String city           = null;
+	    String state          = null;
+	    String country        = null;
+		sc = new Scanner(System.in);
+		System.out.println("Please enter your Student Id: ");
+		studentId     = sc.nextLine();
+		System.out.println("Please enter your Name : ");
+		studentName   = sc.nextLine();
+		System.out.println("Please enter your Age : ");
+		studentAge    = sc.nextDouble();
+		System.out.println("Please enter your Department Id: ");
+		departmentId  = sc.next();
+		System.out.println("Please enter your Department Name : ");
+		departmentName= sc.next();
+		System.out.println("Please enter the Department total hours : ");
+		numberOfHours =sc.nextInt();
+		System.out.println("Enter your city : ");
+		city     = sc.next();
+		System.out.println("Enter your State : ");
+		state    = sc.next();
+		System.out.println("Enter your Country : ");
+         country = sc.next();
+         st.setStudentId(studentId);
+         st.setStudentName(studentName);
+         st.setStudentAge(studentAge);
+         dt.setDepartmentId(departmentId);
+         dt.setDepartmentName(departmentName);
+         dt.setNumberOfHours(numberOfHours);
+         ad.setCity(city);
+         ad.setState(state);
+         ad.setCountry(country);
+         System.out.println("     ");
+         System.out.println("Student Full Details :");
+         System.out.println("==================");
+         String stId   = st.getStudentId();
+         String stName = st.getStudentName();
+         double stAge  = st.getStudentAge();
+         String dtId   = dt.getDepartmentId();
+         String dtName = dt.getDepartmentName();
+         int dtNumberOfHours = dt.getNumberOfHours();
+         String adCity       = ad.getCity();
+         String adState      = ad.getState();
+         String adCountry    = ad.getCountry();
+         System.out.println("Student Id : "+stId);
+         System.out.println("Student Name : "+stName);
+         System.out.println("Student Age : "+stAge);
+         System.out.println("     ");
+         System.out.println("Department information ");
+         System.out.println("-------------------");
+         System.out.println("Department Id: "+dtId);
+         System.out.println("Department Name: "+dtName);
+         System.out.println("Total Hours : "+dtNumberOfHours);
+         System.out.println("     ");
+         System.out.println("Student Address ");
+         System.out.println("------------");
+         System.out.println("City :  " +adCity);
+         System.out.println("State : "+adState);
+         System.out.println("Country : "+adCountry);
+         System.out.println("     ");
+
+	    System.out.println("End of Main Method");
+	}
+}
