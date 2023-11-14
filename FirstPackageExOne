@@ -1,0 +1,5 @@
+package com.sam.firstpackage
+public class FirstPackageExOne
+{
+	System.out.println("Start of ")
+}
