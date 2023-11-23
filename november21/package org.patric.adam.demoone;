@@ -1,0 +1,8 @@
+package org.patric.adam.demoone;
+public class Employee
+{
+	int employeeId;
+	String employeeName;
+	int departmentId;
+	public employee()
+}
